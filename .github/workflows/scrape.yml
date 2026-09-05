@@ -1,0 +1,98 @@
+name: Collin County lead scrape
+
+on:
+  schedule:
+    - cron: "0 7 * * *"      # 07:00 UTC daily (~02:00 CT)
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: "Days of filings to pull"
+        required: false
+        default: "7"
+
+permissions:
+  contents: write     # commit records.json back to the repo
+  pages: write        # publish the dashboard
+  id-token: write
+
+concurrency:
+  group: collin-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 45
+    env:
+      LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '7' }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml dbfread playwright
+
+      - name: Install Chromium for Playwright
+        run: python -m playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: python scraper/fetch.py
+
+      - name: Show run summary
+        if: always()
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          path = pathlib.Path("dashboard/records.json")
+          if not path.exists():
+              print("No records.json produced."); raise SystemExit
+          data = json.loads(path.read_text())
+          records = data.get("records", [])
+          hot = [r for r in records if (r.get("score") or 0) >= 70]
+          print(f"## Collin County leads — {data.get('date_range','')}\n")
+          print(f"- Fetched at: `{data.get('fetched_at','')}`")
+          print(f"- Total records: **{data.get('total', 0)}**")
+          print(f"- With an address: **{data.get('with_address', 0)}**")
+          print(f"- Score >= 70: **{len(hot)}**\n")
+          if records:
+              print("| Score | Type | Owner | Property | Filed |")
+              print("|------:|------|-------|----------|-------|")
+              for r in sorted(records, key=lambda x: -(x.get("score") or 0))[:15]:
+                  print("| {} | {} | {} | {} | {} |".format(
+                      r.get("score", ""), r.get("cat_label", ""), r.get("owner", "")[:34],
+                      (r.get("prop_address") or r.get("mail_address") or "")[:34],
+                      r.get("filed", "")))
+          PY
+
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A dashboard data
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Collin County leads: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
+  deploy:
+    needs: scrape
+    runs-on: ubuntu-22.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy dashboard to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

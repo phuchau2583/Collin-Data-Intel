@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Collin County Motivated Seller Leads</title>
+<style>
+  :root {
+    --bg: #0f1115; --panel: #171a21; --line: #262b36; --text: #e7eaf0;
+    --muted: #9aa3b2; --accent: #4ea1ff; --hot: #ff5f56; --warm: #ffb020; --cool: #3ecf8e;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg:#f6f7f9; --panel:#fff; --line:#e2e5ea; --text:#12151b; --muted:#5d6673; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  header { padding:20px 24px 12px; border-bottom:1px solid var(--line); }
+  h1 { margin:0 0 4px; font-size:19px; letter-spacing:-.01em; }
+  .meta { color:var(--muted); font-size:12.5px; }
+  .stats { display:flex; gap:10px; flex-wrap:wrap; padding:14px 24px; }
+  .stat { background:var(--panel); border:1px solid var(--line); border-radius:10px;
+          padding:10px 14px; min-width:120px; }
+  .stat b { display:block; font-size:20px; }
+  .stat span { color:var(--muted); font-size:11.5px; text-transform:uppercase; letter-spacing:.06em; }
+  .controls { display:flex; gap:8px; flex-wrap:wrap; padding:4px 24px 14px; align-items:center; }
+  input, select, button, a.btn {
+    background:var(--panel); color:var(--text); border:1px solid var(--line);
+    border-radius:8px; padding:8px 10px; font-size:13px; text-decoration:none; }
+  input[type=search] { min-width:240px; }
+  a.btn { display:inline-block; }
+  a.btn:hover, button:hover { border-color:var(--accent); cursor:pointer; }
+  .wrap { padding:0 24px 40px; overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; min-width:1080px; background:var(--panel);
+          border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+  th, td { padding:9px 11px; text-align:left; border-bottom:1px solid var(--line);
+           vertical-align:top; font-size:13px; }
+  th { position:sticky; top:0; background:var(--panel); cursor:pointer;
+       font-size:11.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); }
+  tbody tr:hover { background:rgba(78,161,255,.07); }
+  .score { font-weight:700; border-radius:6px; padding:2px 8px; display:inline-block; color:#0f1115; }
+  .s-hot { background:var(--hot); } .s-warm { background:var(--warm); } .s-cool { background:var(--cool); }
+  .flags { color:var(--muted); font-size:11.5px; }
+  .legal { color:var(--muted); font-size:11.5px; max-width:280px; }
+  a { color:var(--accent); }
+  .empty { padding:40px 24px; color:var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Collin County — Motivated Seller Leads</h1>
+  <div class="meta" id="meta">Loading…</div>
+</header>
+
+<section class="stats" id="stats"></section>
+
+<div class="controls">
+  <input type="search" id="q" placeholder="Search owner, address, doc #, legal…">
+  <select id="cat"><option value="">All lead types</option></select>
+  <select id="minScore">
+    <option value="0">Any score</option>
+    <option value="50">50+</option>
+    <option value="70">70+ (hot)</option>
+    <option value="85">85+</option>
+  </select>
+  <label><input type="checkbox" id="addrOnly"> With address only</label>
+  <a class="btn" href="ghl_export.csv" download>Download GHL CSV</a>
+</div>
+
+<div class="wrap">
+  <table id="tbl">
+    <thead><tr>
+      <th data-k="score">Score</th>
+      <th data-k="cat_label">Lead type</th>
+      <th data-k="owner">Owner</th>
+      <th data-k="prop_address">Property address</th>
+      <th data-k="mail_address">Mailing address</th>
+      <th data-k="amount">Amount</th>
+      <th data-k="filed">Filed</th>
+      <th data-k="doc_num">Document</th>
+      <th data-k="legal">Legal / flags</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <div class="empty" id="empty" hidden>No records match these filters.</div>
+</div>
+
+<script>
+let RECORDS = [], SORT = { key: "score", dir: -1 };
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c]));
+const money = v => (typeof v === "number" && !isNaN(v))
+  ? "$" + v.toLocaleString(undefined, { maximumFractionDigits: 0 }) : "";
+
+function scoreClass(n) { return n >= 70 ? "s-hot" : n >= 50 ? "s-warm" : "s-cool"; }
+
+function stat(label, value) {
+  return `<div class="stat"><b>${esc(value)}</b><span>${esc(label)}</span></div>`;
+}
+
+function render() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const cat = document.getElementById("cat").value;
+  const min = +document.getElementById("minScore").value;
+  const addrOnly = document.getElementById("addrOnly").checked;
+
+  let rows = RECORDS.filter(r => {
+    if (cat && r.cat !== cat) return false;
+    if ((r.score || 0) < min) return false;
+    if (addrOnly && !(r.prop_address || r.mail_address)) return false;
+    if (!q) return true;
+    return [r.owner, r.grantee, r.prop_address, r.mail_address, r.doc_num, r.legal,
+            r.doc_type, (r.flags || []).join(" ")]
+      .join(" ").toLowerCase().includes(q);
+  });
+
+  rows.sort((a, b) => {
+    const x = a[SORT.key], y = b[SORT.key];
+    const av = x == null ? "" : x, bv = y == null ? "" : y;
+    if (typeof av === "number" || typeof bv === "number") return ((av || 0) - (bv || 0)) * SORT.dir;
+    return String(av).localeCompare(String(bv)) * SORT.dir;
+  });
+
+  document.getElementById("tbl").querySelector("tbody").innerHTML = rows.map(r => `
+    <tr>
+      <td><span class="score ${scoreClass(r.score || 0)}">${esc(r.score ?? "")}</span></td>
+      <td>${esc(r.cat_label || r.doc_type || "")}</td>
+      <td><strong>${esc(r.owner || "")}</strong><div class="flags">vs ${esc(r.grantee || "—")}</div></td>
+      <td>${esc(r.prop_address || "")}<div class="flags">${esc([r.prop_city, r.prop_state, r.prop_zip].filter(Boolean).join(" "))}</div></td>
+      <td>${esc(r.mail_address || "")}<div class="flags">${esc([r.mail_city, r.mail_state, r.mail_zip].filter(Boolean).join(" "))}</div></td>
+      <td>${esc(money(r.amount))}</td>
+      <td>${esc(r.filed || "")}</td>
+      <td>${r.clerk_url ? `<a href="${esc(r.clerk_url)}" target="_blank" rel="noopener">${esc(r.doc_num || "view")}</a>` : esc(r.doc_num || "")}
+          <div class="flags">${esc(r.doc_type || "")}</div></td>
+      <td class="legal">${esc(r.legal || "")}<div class="flags">${esc((r.flags || []).join(" · "))}</div></td>
+    </tr>`).join("");
+  document.getElementById("empty").hidden = rows.length > 0;
+}
+
+fetch("records.json?" + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    RECORDS = data.records || [];
+    document.getElementById("meta").textContent =
+      `${data.date_range || ""} · fetched ${data.fetched_at || "—"} · ${data.source || ""}`;
+    const hot = RECORDS.filter(r => (r.score || 0) >= 70).length;
+    document.getElementById("stats").innerHTML =
+      stat("Leads", data.total ?? RECORDS.length) +
+      stat("With address", data.with_address ?? 0) +
+      stat("Score 70+", hot) +
+      stat("Lead types", new Set(RECORDS.map(r => r.cat)).size);
+    const cats = [...new Set(RECORDS.map(r => r.cat_label).filter(Boolean))].sort();
+    const sel = document.getElementById("cat");
+    RECORDS.forEach(r => { if (r.cat && !sel.querySelector(`option[value="${r.cat}"]`)) {
+      const o = document.createElement("option"); o.value = r.cat; o.textContent = r.cat_label || r.cat; sel.appendChild(o);
+    }});
+    render();
+  })
+  .catch(err => { document.getElementById("meta").textContent = "Could not load records.json: " + err; });
+
+["q", "cat", "minScore", "addrOnly"].forEach(id =>
+  document.getElementById(id).addEventListener("input", render));
+document.querySelectorAll("th[data-k]").forEach(th =>
+  th.addEventListener("click", () => {
+    const k = th.dataset.k;
+    SORT = { key: k, dir: SORT.key === k ? -SORT.dir : (k === "score" || k === "amount" ? -1 : 1) };
+    render();
+  }));
+</script>
+</body>
+</html>
