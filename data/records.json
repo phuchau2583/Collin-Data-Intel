@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-09-12T11:42:32Z",
+  "fetched_at": "2026-09-13T12:47:43Z",
   "source": "Collin County Clerk Official Public Records + County Foreclosure Notices + CollinCAD parcel data",
-  "date_range": "2026-09-05 to 2026-09-12",
-  "total": 265,
-  "with_address": 120,
+  "date_range": "2026-09-06 to 2026-09-13",
+  "total": 263,
+  "with_address": 118,
   "records": [
     {
       "doc_num": "2026000120677",
@@ -370,32 +370,6 @@
       "score": 65
     },
     {
-      "doc_num": "2026000121874",
-      "doc_type": "STATE TAX LIEN",
-      "filed": "2026-09-10",
-      "cat": "tax_lien",
-      "cat_label": "State Tax Lien",
-      "owner": "MUD BUGS BAR & GRILL LLC",
-      "grantee": "TEXAS STATE OF",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330680698",
-      "flags": [
-        "Tax lien",
-        "LLC / corp owner",
-        "New this week"
-      ],
-      "score": 65
-    },
-    {
       "doc_num": "2026000121873",
       "doc_type": "STATE TAX LIEN",
       "filed": "2026-09-10",
@@ -474,32 +448,6 @@
       "score": 65
     },
     {
-      "doc_num": "2026000121889",
-      "doc_type": "STATE TAX LIEN",
-      "filed": "2026-09-10",
-      "cat": "tax_lien",
-      "cat_label": "State Tax Lien",
-      "owner": "SWEET STACK LLC",
-      "grantee": "TEXAS STATE OF",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330680647",
-      "flags": [
-        "Tax lien",
-        "LLC / corp owner",
-        "New this week"
-      ],
-      "score": 65
-    },
-    {
       "doc_num": "2026000121879",
       "doc_type": "STATE TAX LIEN",
       "filed": "2026-09-10",
@@ -526,6 +474,32 @@
       "score": 65
     },
     {
+      "doc_num": "2026000121889",
+      "doc_type": "STATE TAX LIEN",
+      "filed": "2026-09-10",
+      "cat": "tax_lien",
+      "cat_label": "State Tax Lien",
+      "owner": "SWEET STACK LLC",
+      "grantee": "TEXAS STATE OF",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330680647",
+      "flags": [
+        "Tax lien",
+        "LLC / corp owner",
+        "New this week"
+      ],
+      "score": 65
+    },
+    {
       "doc_num": "2026000121882",
       "doc_type": "STATE TAX LIEN",
       "filed": "2026-09-10",
@@ -544,6 +518,32 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330680655",
+      "flags": [
+        "Tax lien",
+        "LLC / corp owner",
+        "New this week"
+      ],
+      "score": 65
+    },
+    {
+      "doc_num": "2026000121874",
+      "doc_type": "STATE TAX LIEN",
+      "filed": "2026-09-10",
+      "cat": "tax_lien",
+      "cat_label": "State Tax Lien",
+      "owner": "MUD BUGS BAR & GRILL LLC",
+      "grantee": "TEXAS STATE OF",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330680698",
       "flags": [
         "Tax lien",
         "LLC / corp owner",
@@ -3795,31 +3795,6 @@
       "score": 55
     },
     {
-      "doc_num": "2026000122911",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-09-11",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "PRITCHETTE SKYI",
-      "grantee": "SUTHAPALLI SIRISHA",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330711056",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
       "doc_num": "2026000122772",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-09-11",
@@ -3838,6 +3813,31 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330705305",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000122911",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-09-11",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "PRITCHETTE SKYI",
+      "grantee": "SUTHAPALLI SIRISHA",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330711056",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -4045,6 +4045,31 @@
       "score": 55
     },
     {
+      "doc_num": "2026000122798",
+      "doc_type": "FEDERAL TAX LIEN",
+      "filed": "2026-09-11",
+      "cat": "tax_lien",
+      "cat_label": "Federal Tax Lien",
+      "owner": "SERENO K",
+      "grantee": "U S A INTERNAL REVENUE SERVICE",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330705807",
+      "flags": [
+        "Tax lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
       "doc_num": "2026000122796",
       "doc_type": "FEDERAL TAX LIEN",
       "filed": "2026-09-11",
@@ -4070,12 +4095,12 @@
       "score": 55
     },
     {
-      "doc_num": "2026000122798",
+      "doc_num": "2026000122807",
       "doc_type": "FEDERAL TAX LIEN",
       "filed": "2026-09-11",
       "cat": "tax_lien",
       "cat_label": "Federal Tax Lien",
-      "owner": "SERENO K",
+      "owner": "TORRES JOHN D",
       "grantee": "U S A INTERNAL REVENUE SERVICE",
       "amount": null,
       "legal": "N/A",
@@ -4087,7 +4112,7 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330705807",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330705824",
       "flags": [
         "Tax lien",
         "New this week"
@@ -4138,31 +4163,6 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330705836",
-      "flags": [
-        "Tax lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
-      "doc_num": "2026000122807",
-      "doc_type": "FEDERAL TAX LIEN",
-      "filed": "2026-09-11",
-      "cat": "tax_lien",
-      "cat_label": "Federal Tax Lien",
-      "owner": "TORRES JOHN D",
-      "grantee": "U S A INTERNAL REVENUE SERVICE",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330705824",
       "flags": [
         "Tax lien",
         "New this week"
@@ -4585,30 +4585,6 @@
       "score": 50
     },
     {
-      "doc_num": "2026000121133",
-      "doc_type": "LIEN",
-      "filed": "2026-09-08",
-      "cat": "lien",
-      "cat_label": "Lien",
-      "owner": "LARRIVIERE THOMAS AUSTIN",
-      "grantee": "HEATHERWOOD MCKINNEY HOMEOWNERS ASN INC",
-      "amount": null,
-      "legal": "Subdivision- Name: HEATHERWOOD #4 MCKINNEY Lot: 28 Block: R, Reference - 2014 / 630",
-      "prop_address": "5520 FRINGETREE DR",
-      "prop_city": "MCKINNEY",
-      "prop_state": "TX",
-      "prop_zip": "75071",
-      "mail_address": "5520 FRINGETREE DR",
-      "mail_city": "MCKINNEY",
-      "mail_state": "TX",
-      "mail_zip": "75071-8371",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330658001",
-      "flags": [
-        "New this week"
-      ],
-      "score": 50
-    },
-    {
       "doc_num": "2026000121600",
       "doc_type": "LIEN",
       "filed": "2026-09-09",
@@ -4786,14 +4762,14 @@
       "grantee": "PLANO CITY OF",
       "amount": null,
       "legal": "Subdivision- Name: LOS RIOS #7 PLANO Lot: 23 Block: D, Reference - C / 39",
-      "prop_address": "7613 ROUNDTABLE RD",
-      "prop_city": "FRISCO",
+      "prop_address": "4101 MESA DR",
+      "prop_city": "PLANO",
       "prop_state": "TX",
-      "prop_zip": "75035",
-      "mail_address": "7613 ROUNDTABLE DR",
-      "mail_city": "FRISCO",
+      "prop_zip": "75074",
+      "mail_address": "4101 MESA DR",
+      "mail_city": "PLANO",
       "mail_state": "TX",
-      "mail_zip": "75035-2176",
+      "mail_zip": "75074-3418",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330675684",
       "flags": [
         "New this week"
@@ -4945,30 +4921,6 @@
       "score": 50
     },
     {
-      "doc_num": "2026000121490",
-      "doc_type": "LIEN",
-      "filed": "2026-09-09",
-      "cat": "lien",
-      "cat_label": "Lien",
-      "owner": "GRAY ASHTON DEVELOPERS",
-      "grantee": "NATIONAL WHOLESALE SUPPLY INC",
-      "amount": null,
-      "legal": "Subdivision- Name: PRESTON PADS ADDITION CELINA AMND L2 BA 2026 188 Lot: 2 Block: A, Reference - 2026 / 188",
-      "prop_address": "1200 COIT RD",
-      "prop_city": "PROSPER",
-      "prop_state": "TX",
-      "prop_zip": "75078",
-      "mail_address": "600 N ROBINSON AVE STE 1000",
-      "mail_city": "OKLAHOMA CITY",
-      "mail_state": "OK",
-      "mail_zip": "73102-6241",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330670205",
-      "flags": [
-        "New this week"
-      ],
-      "score": 50
-    },
-    {
       "doc_num": "2026000121789",
       "doc_type": "CHILD SUPPORT LIEN",
       "filed": "2026-09-09",
@@ -5002,14 +4954,14 @@
       "grantee": "WILLOW WOOD MCKINNEY HOMEOWNERS ASN INC",
       "amount": null,
       "legal": "Subdivision- Name: WILLOW WOOD #7 MCKINNEY Lot: 4 Block: GG, Reference - 2021 / 682",
-      "prop_address": "1305 ALEXANDER DR",
-      "prop_city": "MCKINNEY",
+      "prop_address": "STATE HWY 5",
+      "prop_city": "MELISSA",
       "prop_state": "TX",
-      "prop_zip": "75071",
-      "mail_address": "1305 ALEXANDER DR",
-      "mail_city": "MCKINNEY",
+      "prop_zip": "75454",
+      "mail_address": "522 LACORE LN",
+      "mail_city": "MELISSA",
       "mail_state": "TX",
-      "mail_zip": "75071-2156",
+      "mail_zip": "75454-2659",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330685844",
       "flags": [
         "New this week"
