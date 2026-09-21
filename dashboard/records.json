@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-20T12:17:06Z",
+  "fetched_at": "2026-09-21T13:57:47Z",
   "source": "Collin County Clerk Official Public Records + County Foreclosure Notices + CollinCAD parcel data",
-  "date_range": "2026-09-13 to 2026-09-20",
+  "date_range": "2026-09-14 to 2026-09-21",
   "total": 77,
   "with_address": 51,
   "records": [
@@ -615,31 +615,6 @@
       "score": 60
     },
     {
-      "doc_num": "2026000124392",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-09-15",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "GOSSELIN DAWN",
-      "grantee": "FRANKENMUTH INSURANCE CO",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "4211 PINE NEEDLE CT",
-      "prop_city": "PROSPER",
-      "prop_state": "TX",
-      "prop_zip": "75078",
-      "mail_address": "JEREMY GOSSELIN, 4211 PINE NEEDLE CT",
-      "mail_city": "PROSPER",
-      "mail_state": "TX",
-      "mail_zip": "75078-9016",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330748577",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 60
-    },
-    {
       "doc_num": "2026000124240",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-09-15",
@@ -683,6 +658,31 @@
       "mail_state": "TX",
       "mail_zip": "75035-3978",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330745958",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026000124392",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-09-15",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "GOSSELIN DAWN",
+      "grantee": "FRANKENMUTH INSURANCE CO",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "4211 PINE NEEDLE CT",
+      "prop_city": "PROSPER",
+      "prop_state": "TX",
+      "prop_zip": "75078",
+      "mail_address": "JEREMY GOSSELIN, 4211 PINE NEEDLE CT",
+      "mail_city": "PROSPER",
+      "mail_state": "TX",
+      "mail_zip": "75078-9016",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330748577",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1440,31 +1440,6 @@
       "score": 55
     },
     {
-      "doc_num": "2026000123386",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-09-14",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "SANDERS DARREN",
-      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330720791",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
       "doc_num": "2026000123305",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-09-14",
@@ -1483,6 +1458,31 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330718347",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000123386",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-09-14",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "SANDERS DARREN",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330720791",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1590,6 +1590,31 @@
       "score": 55
     },
     {
+      "doc_num": "2026000124018",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-09-15",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "CHERNATOV PAVEL",
+      "grantee": "CITIBANK NA",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330736625",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
       "doc_num": "2026000123928",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-09-15",
@@ -1633,31 +1658,6 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330736200",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
-      "doc_num": "2026000124018",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-09-15",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "CHERNATOV PAVEL",
-      "grantee": "CITIBANK NA",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330736625",
       "flags": [
         "Judgment lien",
         "New this week"
