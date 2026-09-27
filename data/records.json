@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-26T12:13:27Z",
+  "fetched_at": "2026-09-27T12:58:19Z",
   "source": "Collin County Clerk Official Public Records + County Foreclosure Notices + CollinCAD parcel data",
-  "date_range": "2026-09-19 to 2026-09-26",
+  "date_range": "2026-09-20 to 2026-09-27",
   "total": 39,
   "with_address": 38,
   "records": [
@@ -256,31 +256,6 @@
       "score": 60
     },
     {
-      "doc_num": "2026000127106",
-      "doc_type": "LIS PENDENS",
-      "filed": "2026-09-22",
-      "cat": "lis_pendens",
-      "cat_label": "Lis Pendens",
-      "owner": "GILLIAM JUSTIN T",
-      "grantee": "STONEBRIDGE RANCH COMMUNITY ASSOCIATION INC",
-      "amount": null,
-      "legal": "Subdivision- Name: FOUNTAINVIEW #1 MCKINNEY Lot: 51 Block: A, Reference - N / 123",
-      "prop_address": "2604 SPRING DR",
-      "prop_city": "MCKINNEY",
-      "prop_state": "TX",
-      "prop_zip": "75072",
-      "mail_address": "2604 SPRING DR",
-      "mail_city": "MCKINNEY",
-      "mail_state": "TX",
-      "mail_zip": "75072-3084",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330827871",
-      "flags": [
-        "Lis pendens",
-        "New this week"
-      ],
-      "score": 60
-    },
-    {
       "doc_num": "2026000127111",
       "doc_type": "LIS PENDENS",
       "filed": "2026-09-22",
@@ -299,6 +274,31 @@
       "mail_state": "TX",
       "mail_zip": "75070-8158",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330828368",
+      "flags": [
+        "Lis pendens",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026000127106",
+      "doc_type": "LIS PENDENS",
+      "filed": "2026-09-22",
+      "cat": "lis_pendens",
+      "cat_label": "Lis Pendens",
+      "owner": "GILLIAM JUSTIN T",
+      "grantee": "STONEBRIDGE RANCH COMMUNITY ASSOCIATION INC",
+      "amount": null,
+      "legal": "Subdivision- Name: FOUNTAINVIEW #1 MCKINNEY Lot: 51 Block: A, Reference - N / 123",
+      "prop_address": "2604 SPRING DR",
+      "prop_city": "MCKINNEY",
+      "prop_state": "TX",
+      "prop_zip": "75072",
+      "mail_address": "2604 SPRING DR",
+      "mail_city": "MCKINNEY",
+      "mail_state": "TX",
+      "mail_zip": "75072-3084",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330827871",
       "flags": [
         "Lis pendens",
         "New this week"
@@ -865,14 +865,14 @@
       "grantee": "HIDDEN CREEK COMMUNITY ASSOCIATION INC",
       "amount": null,
       "legal": "Subdivision- Name: HIDDEN CREEK #2B MCK Lot: 7 Block: B, Reference - L / 871",
-      "prop_address": "2304 BRENHAM DR",
-      "prop_city": "MCKINNEY",
+      "prop_address": "235 PECAN HOLLOW CIR",
+      "prop_city": "ANNA",
       "prop_state": "TX",
-      "prop_zip": "75072",
-      "mail_address": "2304 BRENHAM DR",
-      "mail_city": "MCKINNEY",
+      "prop_zip": "75409",
+      "mail_address": "235 PECAN HOLLOW CIR",
+      "mail_city": "ANNA",
       "mail_state": "TX",
-      "mail_zip": "75072-9009",
+      "mail_zip": "75409-6294",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330875241",
       "flags": [
         "Lis pendens",
