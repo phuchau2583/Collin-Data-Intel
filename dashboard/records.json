@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-09-27T12:58:19Z",
+  "fetched_at": "2026-09-28T15:19:43Z",
   "source": "Collin County Clerk Official Public Records + County Foreclosure Notices + CollinCAD parcel data",
-  "date_range": "2026-09-20 to 2026-09-27",
-  "total": 39,
+  "date_range": "2026-09-21 to 2026-09-28",
+  "total": 40,
   "with_address": 38,
   "records": [
     {
@@ -215,14 +215,14 @@
       "grantee": "STONEBRIDGE RANCH COMMUNITY ASSOCIATION INC",
       "amount": null,
       "legal": "Subdivision- Name: WILLOW BROOK PHASE I MCKINNEY Lot: 21 Block: A, Reference - J / 954",
-      "prop_address": "2813 WOODSON DR",
+      "prop_address": "808 NAVAJO DR",
       "prop_city": "MCKINNEY",
       "prop_state": "TX",
       "prop_zip": "75072",
-      "mail_address": "2208 AMHERST CIR",
+      "mail_address": "808 NAVAJO DR",
       "mail_city": "MCKINNEY",
       "mail_state": "TX",
-      "mail_zip": "75072-4051",
+      "mail_zip": "75072-9144",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330827863",
       "flags": [
         "Lis pendens",
@@ -256,31 +256,6 @@
       "score": 60
     },
     {
-      "doc_num": "2026000127111",
-      "doc_type": "LIS PENDENS",
-      "filed": "2026-09-22",
-      "cat": "lis_pendens",
-      "cat_label": "Lis Pendens",
-      "owner": "GRANGER KAREN YVONNE",
-      "grantee": "STONEBRIDGE RANCH COMMUNITY ASSOCIATION INC",
-      "amount": null,
-      "legal": "Subdivision- Name: FALCON CREEK I MCKINNEY Lot: 4 Block: A, Reference - I / 284",
-      "prop_address": "8524 FALCONET CIR",
-      "prop_city": "MCKINNEY",
-      "prop_state": "TX",
-      "prop_zip": "75072",
-      "mail_address": "PO BOX 1711",
-      "mail_city": "MCKINNEY",
-      "mail_state": "TX",
-      "mail_zip": "75070-8158",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330828368",
-      "flags": [
-        "Lis pendens",
-        "New this week"
-      ],
-      "score": 60
-    },
-    {
       "doc_num": "2026000127106",
       "doc_type": "LIS PENDENS",
       "filed": "2026-09-22",
@@ -299,6 +274,31 @@
       "mail_state": "TX",
       "mail_zip": "75072-3084",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330827871",
+      "flags": [
+        "Lis pendens",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026000127111",
+      "doc_type": "LIS PENDENS",
+      "filed": "2026-09-22",
+      "cat": "lis_pendens",
+      "cat_label": "Lis Pendens",
+      "owner": "GRANGER KAREN YVONNE",
+      "grantee": "STONEBRIDGE RANCH COMMUNITY ASSOCIATION INC",
+      "amount": null,
+      "legal": "Subdivision- Name: FALCON CREEK I MCKINNEY Lot: 4 Block: A, Reference - I / 284",
+      "prop_address": "8524 FALCONET CIR",
+      "prop_city": "MCKINNEY",
+      "prop_state": "TX",
+      "prop_zip": "75072",
+      "mail_address": "PO BOX 1711",
+      "mail_city": "MCKINNEY",
+      "mail_state": "TX",
+      "mail_zip": "75070-8158",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330828368",
       "flags": [
         "Lis pendens",
         "New this week"
@@ -865,14 +865,14 @@
       "grantee": "HIDDEN CREEK COMMUNITY ASSOCIATION INC",
       "amount": null,
       "legal": "Subdivision- Name: HIDDEN CREEK #2B MCK Lot: 7 Block: B, Reference - L / 871",
-      "prop_address": "235 PECAN HOLLOW CIR",
-      "prop_city": "ANNA",
+      "prop_address": "2304 BRENHAM DR",
+      "prop_city": "MCKINNEY",
       "prop_state": "TX",
-      "prop_zip": "75409",
-      "mail_address": "235 PECAN HOLLOW CIR",
-      "mail_city": "ANNA",
+      "prop_zip": "75072",
+      "mail_address": "2304 BRENHAM DR",
+      "mail_city": "MCKINNEY",
       "mail_state": "TX",
-      "mail_zip": "75409-6294",
+      "mail_zip": "75072-9009",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330875241",
       "flags": [
         "Lis pendens",
@@ -974,6 +974,31 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330827873",
+      "flags": [
+        "Lis pendens",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000129641",
+      "doc_type": "LIS PENDENS",
+      "filed": "2026-09-28",
+      "cat": "lis_pendens",
+      "cat_label": "Lis Pendens",
+      "owner": "N/A",
+      "grantee": "N/A",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330897797",
       "flags": [
         "Lis pendens",
         "New this week"
