@@ -1,35 +1,10 @@
 {
-  "fetched_at": "2026-09-28T15:19:43Z",
+  "fetched_at": "2026-09-29T14:00:47Z",
   "source": "Collin County Clerk Official Public Records + County Foreclosure Notices + CollinCAD parcel data",
-  "date_range": "2026-09-21 to 2026-09-28",
-  "total": 40,
+  "date_range": "2026-09-22 to 2026-09-29",
+  "total": 43,
   "with_address": 38,
   "records": [
-    {
-      "doc_num": "2026000126484",
-      "doc_type": "LIS PENDENS",
-      "filed": "2026-09-21",
-      "cat": "lis_pendens",
-      "cat_label": "Lis Pendens",
-      "owner": "LANZILLO JANET R MCCARLEY",
-      "grantee": "BLUE MEADOW MUNICIPAL UTILITY DISTRICT #1 OF COLLIN COUNTY",
-      "amount": null,
-      "legal": "Survey- Name: MOWERY MATTHIAS SURVEY Survey: 557 Acres: 1.603",
-      "prop_address": "COUNTY ROAD 502",
-      "prop_city": "BLUE RIDGE",
-      "prop_state": "TX",
-      "prop_zip": "75424",
-      "mail_address": "4202 SHADYBROOK LN",
-      "mail_city": "ROWLETT",
-      "mail_state": "TX",
-      "mail_zip": "75088-9250",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330806099",
-      "flags": [
-        "Lis pendens",
-        "New this week"
-      ],
-      "score": 60
-    },
     {
       "doc_num": "2026000127120",
       "doc_type": "LIS PENDENS",
@@ -256,31 +231,6 @@
       "score": 60
     },
     {
-      "doc_num": "2026000127106",
-      "doc_type": "LIS PENDENS",
-      "filed": "2026-09-22",
-      "cat": "lis_pendens",
-      "cat_label": "Lis Pendens",
-      "owner": "GILLIAM JUSTIN T",
-      "grantee": "STONEBRIDGE RANCH COMMUNITY ASSOCIATION INC",
-      "amount": null,
-      "legal": "Subdivision- Name: FOUNTAINVIEW #1 MCKINNEY Lot: 51 Block: A, Reference - N / 123",
-      "prop_address": "2604 SPRING DR",
-      "prop_city": "MCKINNEY",
-      "prop_state": "TX",
-      "prop_zip": "75072",
-      "mail_address": "2604 SPRING DR",
-      "mail_city": "MCKINNEY",
-      "mail_state": "TX",
-      "mail_zip": "75072-3084",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330827871",
-      "flags": [
-        "Lis pendens",
-        "New this week"
-      ],
-      "score": 60
-    },
-    {
       "doc_num": "2026000127111",
       "doc_type": "LIS PENDENS",
       "filed": "2026-09-22",
@@ -299,6 +249,31 @@
       "mail_state": "TX",
       "mail_zip": "75070-8158",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/330828368",
+      "flags": [
+        "Lis pendens",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
+      "doc_num": "2026000127106",
+      "doc_type": "LIS PENDENS",
+      "filed": "2026-09-22",
+      "cat": "lis_pendens",
+      "cat_label": "Lis Pendens",
+      "owner": "GILLIAM JUSTIN T",
+      "grantee": "STONEBRIDGE RANCH COMMUNITY ASSOCIATION INC",
+      "amount": null,
+      "legal": "Subdivision- Name: FOUNTAINVIEW #1 MCKINNEY Lot: 51 Block: A, Reference - N / 123",
+      "prop_address": "2604 SPRING DR",
+      "prop_city": "MCKINNEY",
+      "prop_state": "TX",
+      "prop_zip": "75072",
+      "mail_address": "2604 SPRING DR",
+      "mail_city": "MCKINNEY",
+      "mail_state": "TX",
+      "mail_zip": "75072-3084",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330827871",
       "flags": [
         "Lis pendens",
         "New this week"
@@ -956,6 +931,31 @@
       "score": 60
     },
     {
+      "doc_num": "2026000129641",
+      "doc_type": "LIS PENDENS",
+      "filed": "2026-09-28",
+      "cat": "lis_pendens",
+      "cat_label": "Lis Pendens",
+      "owner": "MODISETTE RAVEN",
+      "grantee": "WINVESTMENT LLC",
+      "amount": null,
+      "legal": "Subdivision- Name: PARKSIDE (CPR) Lot: 21 Block: E",
+      "prop_address": "2101 LONGMONT LN",
+      "prop_city": "PROSPER",
+      "prop_state": "TX",
+      "prop_zip": "75078",
+      "mail_address": "2101 LONGMONT LN",
+      "mail_city": "PROSPER",
+      "mail_state": "TX",
+      "mail_zip": "75078-1994",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330897797",
+      "flags": [
+        "Lis pendens",
+        "New this week"
+      ],
+      "score": 60
+    },
+    {
       "doc_num": "2026000127105",
       "doc_type": "LIS PENDENS",
       "filed": "2026-09-22",
@@ -981,9 +981,34 @@
       "score": 55
     },
     {
-      "doc_num": "2026000129641",
+      "doc_num": "2026000129849",
       "doc_type": "LIS PENDENS",
       "filed": "2026-09-28",
+      "cat": "lis_pendens",
+      "cat_label": "Lis Pendens",
+      "owner": "KINSEY BRANDON",
+      "grantee": "PETERSEN BELINDA TRUSTEE",
+      "amount": null,
+      "legal": "Subdivision- Name: WHITLEY PLACE #2B PROSPER Lot: 14 Block: A, Reference - 2011 / 187",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330912352",
+      "flags": [
+        "Lis pendens",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000130128",
+      "doc_type": "LIS PENDENS",
+      "filed": "2026-09-29",
       "cat": "lis_pendens",
       "cat_label": "Lis Pendens",
       "owner": "N/A",
@@ -998,7 +1023,57 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/330897797",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330916173",
+      "flags": [
+        "Lis pendens",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000130126",
+      "doc_type": "LIS PENDENS",
+      "filed": "2026-09-29",
+      "cat": "lis_pendens",
+      "cat_label": "Lis Pendens",
+      "owner": "N/A",
+      "grantee": "N/A",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330916175",
+      "flags": [
+        "Lis pendens",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000130127",
+      "doc_type": "LIS PENDENS",
+      "filed": "2026-09-29",
+      "cat": "lis_pendens",
+      "cat_label": "Lis Pendens",
+      "owner": "N/A",
+      "grantee": "N/A",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/330916176",
       "flags": [
         "Lis pendens",
         "New this week"
