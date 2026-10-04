@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-03T12:29:48Z",
+  "fetched_at": "2026-10-04T13:12:29Z",
   "source": "Collin County Clerk Official Public Records + County Foreclosure Notices + CollinCAD parcel data",
-  "date_range": "2026-09-26 to 2026-10-03",
+  "date_range": "2026-09-27 to 2026-10-04",
   "total": 73,
   "with_address": 37,
   "records": [
@@ -392,10 +392,10 @@
       "grantee": "NAVITAS CREDIT CORP",
       "amount": null,
       "legal": "N/A",
-      "prop_address": "6401 AVALON WOODS DR",
-      "prop_city": "MCKINNEY",
+      "prop_address": "760 N COUNTRY CLUB RD",
+      "prop_city": "FAIRVIEW",
       "prop_state": "TX",
-      "prop_zip": "75072",
+      "prop_zip": "75069",
       "mail_address": "760 COUNTRY CLUB RD",
       "mail_city": "FAIRVIEW",
       "mail_state": "TX",
