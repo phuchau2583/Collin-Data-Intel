@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-17T11:34:57Z",
+  "fetched_at": "2026-10-18T12:05:07Z",
   "source": "Collin County Clerk Official Public Records + County Foreclosure Notices + CollinCAD parcel data",
-  "date_range": "2026-10-10 to 2026-10-17",
-  "total": 87,
-  "with_address": 58,
+  "date_range": "2026-10-11 to 2026-10-18",
+  "total": 83,
+  "with_address": 54,
   "records": [
     {
       "doc_num": "",
@@ -1410,31 +1410,6 @@
       "score": 60
     },
     {
-      "doc_num": "",
-      "doc_type": "Notice of Foreclosure Sale",
-      "filed": "2026-10-09",
-      "cat": "foreclosure",
-      "cat_label": "Notice of Foreclosure Sale",
-      "owner": "3300 RENNER PROPERTY COMANY LLC",
-      "grantee": "",
-      "amount": null,
-      "legal": "Sale date: 11/03/2026 · Office (F3)",
-      "prop_address": "3300 E RENNER RD",
-      "prop_city": "RICHARDSON",
-      "prop_state": "TX",
-      "prop_zip": "75082",
-      "mail_address": "C/O APEX CAPITAL INVESTMENT COMPANY, ATTN: JOHN GAGHAN, 1515 MARKET ST STE 804",
-      "mail_city": "PHILADELPHIA",
-      "mail_state": "PA",
-      "mail_zip": "19102-1914",
-      "clerk_url": "https://apps2.collincountytx.gov/ForeclosureNotices",
-      "flags": [
-        "Pre-foreclosure",
-        "LLC / corp owner"
-      ],
-      "score": 55
-    },
-    {
       "doc_num": "2026000135991",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-10-12",
@@ -2108,78 +2083,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "",
-      "doc_type": "Notice of Foreclosure Sale",
-      "filed": "2026-10-09",
-      "cat": "foreclosure",
-      "cat_label": "Notice of Foreclosure Sale",
-      "owner": "HAUNG ERIC",
-      "grantee": "",
-      "amount": null,
-      "legal": "Sale date: 11/03/2026 · Condominium (F4)",
-      "prop_address": "2137 CHELSEA BLVD E11",
-      "prop_city": "ALLEN",
-      "prop_state": "TX",
-      "prop_zip": "75013",
-      "mail_address": "5816 SILVERTON AVE",
-      "mail_city": "MCKINNEY",
-      "mail_state": "TX",
-      "mail_zip": "75070-4507",
-      "clerk_url": "https://apps2.collincountytx.gov/ForeclosureNotices",
-      "flags": [
-        "Pre-foreclosure"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "",
-      "doc_type": "Notice of Foreclosure Sale",
-      "filed": "2026-10-09",
-      "cat": "foreclosure",
-      "cat_label": "Notice of Foreclosure Sale",
-      "owner": "OMOUGHIE ITOHAN",
-      "grantee": "",
-      "amount": null,
-      "legal": "Sale date: 11/03/2026 · Residential Townhomes (A4)",
-      "prop_address": "341 REGENCY DR",
-      "prop_city": "ALLEN",
-      "prop_state": "TX",
-      "prop_zip": "75002",
-      "mail_address": "341 REGENCY DR",
-      "mail_city": "ALLEN",
-      "mail_state": "TX",
-      "mail_zip": "75002-3021",
-      "clerk_url": "https://apps2.collincountytx.gov/ForeclosureNotices",
-      "flags": [
-        "Pre-foreclosure"
-      ],
-      "score": 45
-    },
-    {
-      "doc_num": "",
-      "doc_type": "Notice of Foreclosure Sale",
-      "filed": "2026-10-09",
-      "cat": "foreclosure",
-      "cat_label": "Notice of Foreclosure Sale",
-      "owner": "",
-      "grantee": "",
-      "amount": null,
-      "legal": "Sale date: 04/06/2027 · Residential Single Family (A1)",
-      "prop_address": "8990 HIGHPOINT DR PROSPER",
-      "prop_city": "UNINCORPORATED AREA",
-      "prop_state": "TX",
-      "prop_zip": "75078",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://apps2.collincountytx.gov/ForeclosureNotices",
-      "flags": [
-        "Pre-foreclosure"
-      ],
-      "score": 45
     }
   ]
 }
