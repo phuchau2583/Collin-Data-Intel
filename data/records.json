@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-24T11:58:31Z",
+  "fetched_at": "2026-10-25T12:30:49Z",
   "source": "Collin County Clerk Official Public Records + County Foreclosure Notices + CollinCAD parcel data",
-  "date_range": "2026-10-17 to 2026-10-24",
+  "date_range": "2026-10-18 to 2026-10-25",
   "total": 67,
   "with_address": 17,
   "records": [
@@ -24,6 +24,32 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/331706062",
+      "flags": [
+        "Judgment lien",
+        "LLC / corp owner",
+        "New this week"
+      ],
+      "score": 65
+    },
+    {
+      "doc_num": "2026000139689",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-10-20",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "MY GENERAL CONTRACTOR LLC",
+      "grantee": "GUPTA INVESTMENTS LIMITED PARTNERSHIP",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/331716844",
       "flags": [
         "Judgment lien",
         "LLC / corp owner",
@@ -760,31 +786,6 @@
       "score": 55
     },
     {
-      "doc_num": "2026000139184",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-10-20",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "MCFARLAND SYDNEY",
-      "grantee": "FIRST TECHNOLOGY FEDERAL CREDIT UNION",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/331704170",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
       "doc_num": "2026000139731",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-10-20",
@@ -810,13 +811,13 @@
       "score": 55
     },
     {
-      "doc_num": "2026000139689",
+      "doc_num": "2026000139184",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-10-20",
       "cat": "judgment",
       "cat_label": "Abstract of Judgment",
-      "owner": "MOSQUEDA JESSE",
-      "grantee": "GUPTA INVESTMENTS LIMITED PARTNERSHIP",
+      "owner": "MCFARLAND SYDNEY",
+      "grantee": "FIRST TECHNOLOGY FEDERAL CREDIT UNION",
       "amount": null,
       "legal": "N/A",
       "prop_address": "",
@@ -827,7 +828,7 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/331716844",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/331704170",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -985,31 +986,6 @@
       "score": 55
     },
     {
-      "doc_num": "2026000140099",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-10-21",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "ANDREWS MATTHEW C",
-      "grantee": "JPMORGAN CHASE BANK NA",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/331731741",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
       "doc_num": "2026000139864",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-10-21",
@@ -1060,6 +1036,31 @@
       "score": 55
     },
     {
+      "doc_num": "2026000140099",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-10-21",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "ANDREWS MATTHEW C",
+      "grantee": "JPMORGAN CHASE BANK NA",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/331731741",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
       "doc_num": "2026000140324",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-10-21",
@@ -1078,6 +1079,31 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/331737278",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000140229",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-10-21",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "WILLIAMS ARAMIS",
+      "grantee": "FIDELITY NATIONAL TITLE INSURANCE COMPANY",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/331736808",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1153,31 +1179,6 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/331730629",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
-      "doc_num": "2026000140229",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-10-21",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "WILLIAMS ARAMIS",
-      "grantee": "FIDELITY NATIONAL TITLE INSURANCE COMPANY",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/331736808",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1285,31 +1286,6 @@
       "score": 55
     },
     {
-      "doc_num": "2026000140174",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-10-21",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "ZHUKOV MIKHAIL",
-      "grantee": "PROSPERITY BANK",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/331735936",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
       "doc_num": "2026000140074",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-10-21",
@@ -1328,6 +1304,31 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/331731388",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000140174",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-10-21",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "ZHUKOV MIKHAIL",
+      "grantee": "PROSPERITY BANK",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/331735936",
       "flags": [
         "Judgment lien",
         "New this week"
