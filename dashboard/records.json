@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-25T12:30:49Z",
+  "fetched_at": "2026-10-26T14:08:50Z",
   "source": "Collin County Clerk Official Public Records + County Foreclosure Notices + CollinCAD parcel data",
-  "date_range": "2026-10-18 to 2026-10-25",
-  "total": 67,
+  "date_range": "2026-10-19 to 2026-10-26",
+  "total": 69,
   "with_address": 17,
   "records": [
     {
@@ -32,13 +32,13 @@
       "score": 65
     },
     {
-      "doc_num": "2026000139689",
+      "doc_num": "2026000139694",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-10-20",
       "cat": "judgment",
       "cat_label": "Abstract of Judgment",
-      "owner": "MY GENERAL CONTRACTOR LLC",
-      "grantee": "GUPTA INVESTMENTS LIMITED PARTNERSHIP",
+      "owner": "CANDICE CLEANERS LLC",
+      "grantee": "MANTIS FUNDING LLC",
       "amount": null,
       "legal": "N/A",
       "prop_address": "",
@@ -49,7 +49,7 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/331716844",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/331718530",
       "flags": [
         "Judgment lien",
         "LLC / corp owner",
@@ -128,6 +128,32 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/331750418",
+      "flags": [
+        "Judgment lien",
+        "LLC / corp owner",
+        "New this week"
+      ],
+      "score": 65
+    },
+    {
+      "doc_num": "2026000141522",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-10-26",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "Eminent Roofing LLC",
+      "grantee": "American Builders & Contractors Supply Co Inc",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332100607",
       "flags": [
         "Judgment lien",
         "LLC / corp owner",
@@ -836,13 +862,13 @@
       "score": 55
     },
     {
-      "doc_num": "2026000139694",
+      "doc_num": "2026000139689",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-10-20",
       "cat": "judgment",
       "cat_label": "Abstract of Judgment",
-      "owner": "KHAN ABIGAIL CANDICE",
-      "grantee": "MANTIS FUNDING LLC",
+      "owner": "MOSQUEDA JESSE",
+      "grantee": "GUPTA INVESTMENTS LIMITED PARTNERSHIP",
       "amount": null,
       "legal": "N/A",
       "prop_address": "",
@@ -853,7 +879,7 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/331718530",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/331716844",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1679,6 +1705,31 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/331757242",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000141599",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-10-26",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "WALLACE TAMARA",
+      "grantee": "R2S, Inc.",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332101183",
       "flags": [
         "Judgment lien",
         "New this week"
