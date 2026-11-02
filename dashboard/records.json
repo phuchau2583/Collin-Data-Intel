@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-01T14:15:08Z",
+  "fetched_at": "2026-11-02T17:01:16Z",
   "source": "Collin County Clerk Official Public Records + County Foreclosure Notices + CollinCAD parcel data",
-  "date_range": "2026-10-25 to 2026-11-01",
+  "date_range": "2026-10-26 to 2026-11-02",
   "total": 90,
   "with_address": 25,
   "records": [
@@ -1810,31 +1810,6 @@
       "score": 55
     },
     {
-      "doc_num": "2026000144422",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-10-30",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "PEARSON ERICA",
-      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/332178525",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
       "doc_num": "2026000144291",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-10-30",
@@ -1928,6 +1903,31 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/332177947",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000144422",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-10-30",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "PEARSON ERICA",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332178525",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2110,31 +2110,6 @@
       "score": 55
     },
     {
-      "doc_num": "2026000144433",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-10-30",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "LOPEZ JOSE G PEREZ",
-      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/332179401",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
       "doc_num": "2026000144521",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-10-30",
@@ -2160,12 +2135,12 @@
       "score": 55
     },
     {
-      "doc_num": "2026000144429",
+      "doc_num": "2026000144433",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-10-30",
       "cat": "judgment",
       "cat_label": "Abstract of Judgment",
-      "owner": "ENOSEGNE AUDREY",
+      "owner": "LOPEZ JOSE G PEREZ",
       "grantee": "MIDLAND CREDIT MANAGEMENT INC",
       "amount": null,
       "legal": "N/A",
@@ -2177,7 +2152,7 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/332178975",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332179401",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -2210,6 +2185,56 @@
       "score": 55
     },
     {
+      "doc_num": "2026000144395",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-10-30",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "CONVENTO WENDY E",
+      "grantee": "JPMORGAN CHASE BANK NA",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332176896",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000144416",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-10-30",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "OSORIO JOHN",
+      "grantee": "CITIBANK NA",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332177949",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
       "doc_num": "2026000144467",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-10-30",
@@ -2228,31 +2253,6 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/332180632",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
-      "doc_num": "2026000144460",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-10-30",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "ARMSTRONG SANDRA",
-      "grantee": "JPMORGAN CHASE BANK NA",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/332180642",
       "flags": [
         "Judgment lien",
         "New this week"
