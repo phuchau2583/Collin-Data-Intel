@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-08T14:17:16Z",
+  "fetched_at": "2026-11-09T17:29:26Z",
   "source": "Collin County Clerk Official Public Records + County Foreclosure Notices + CollinCAD parcel data",
-  "date_range": "2026-11-01 to 2026-11-08",
+  "date_range": "2026-11-02 to 2026-11-09",
   "total": 75,
   "with_address": 34,
   "records": [
@@ -117,11 +117,11 @@
       "grantee": "COLLIN COUNTY MUNICIPAL UTILITY DISTRICT NO 11",
       "amount": null,
       "legal": "Survey- Name: STEWART J F SURVEY Survey: 838 Acres: 0.007",
-      "prop_address": "1009 FLORENCE ST",
+      "prop_address": "5113 RAIN FOREST DR",
       "prop_city": "MCKINNEY",
       "prop_state": "TX",
-      "prop_zip": "75069",
-      "mail_address": "SARAH RENEE VAN TRUMP, 5770 BAXTER WELL RD",
+      "prop_zip": "75070",
+      "mail_address": "5770 BAXTER WELL RD",
       "mail_city": "MCKINNEY",
       "mail_state": "TX",
       "mail_zip": "75071-8239",
@@ -958,31 +958,6 @@
       "score": 55
     },
     {
-      "doc_num": "2026000145081",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-11-02",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "DIAZ LESLIE",
-      "grantee": "SYNCHRONY BANK",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/332202290",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
       "doc_num": "2026000145631",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-11-03",
@@ -1108,31 +1083,6 @@
       "score": 55
     },
     {
-      "doc_num": "2026000145625",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-11-03",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "RIVERA OSCAR",
-      "grantee": "INTEGRAS CAPITAL RECOVERY LLC",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/332215346",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
       "doc_num": "2026000145716",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-11-03",
@@ -1151,6 +1101,31 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/332217733",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000145625",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-11-03",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "RIVERA OSCAR",
+      "grantee": "INTEGRAS CAPITAL RECOVERY LLC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332215346",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1183,31 +1158,6 @@
       "score": 55
     },
     {
-      "doc_num": "2026000145816",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-11-03",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "BAIL BRANDY",
-      "grantee": "UNIVERSITY FEDERAL CREDIT UNION",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/332222530",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
       "doc_num": "2026000145849",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-11-03",
@@ -1226,6 +1176,31 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/332223377",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000145816",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-11-03",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "BAIL BRANDY",
+      "grantee": "UNIVERSITY FEDERAL CREDIT UNION",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332222530",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1383,31 +1358,6 @@
       "score": 55
     },
     {
-      "doc_num": "2026000147151",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-11-05",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "SEMENOFF SABRE",
-      "grantee": "TEXAS STATE OF",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/332268743",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
       "doc_num": "2026000146995",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-11-05",
@@ -1433,12 +1383,37 @@
       "score": 55
     },
     {
-      "doc_num": "2026000147152",
+      "doc_num": "2026000147151",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-11-05",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "SEMENOFF SABRE",
+      "grantee": "TEXAS STATE OF",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332268743",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000147358",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-11-06",
       "cat": "judgment",
       "cat_label": "Abstract of Judgment",
-      "owner": "CRUZ HECTOR",
+      "owner": "BAILEY JONIE",
       "grantee": "MIDLAND CREDIT MANAGEMENT INC",
       "amount": null,
       "legal": "N/A",
@@ -1450,7 +1425,7 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/332272910",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332278059",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1483,12 +1458,12 @@
       "score": 55
     },
     {
-      "doc_num": "2026000147358",
+      "doc_num": "2026000147562",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-11-06",
       "cat": "judgment",
       "cat_label": "Abstract of Judgment",
-      "owner": "BAILEY JONIE",
+      "owner": "MCGAW GREGORY",
       "grantee": "MIDLAND CREDIT MANAGEMENT INC",
       "amount": null,
       "legal": "N/A",
@@ -1500,7 +1475,7 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/332278059",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332284183",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1558,31 +1533,6 @@
       "score": 55
     },
     {
-      "doc_num": "2026000147562",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-11-06",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "MCGAW GREGORY",
-      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/332284183",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
       "doc_num": "2026000147803",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-11-06",
@@ -1626,6 +1576,31 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/332286687",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000147152",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-11-06",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "CRUZ HECTOR",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332272910",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1733,31 +1708,6 @@
       "score": 55
     },
     {
-      "doc_num": "2026000147493",
-      "doc_type": "ABSTRACT OF JUDGMENT",
-      "filed": "2026-11-06",
-      "cat": "judgment",
-      "cat_label": "Abstract of Judgment",
-      "owner": "WEISS MICHAEL",
-      "grantee": "CONSTRUCTION NATION GROUP LLC",
-      "amount": null,
-      "legal": "N/A",
-      "prop_address": "",
-      "prop_city": "",
-      "prop_state": "",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/332281729",
-      "flags": [
-        "Judgment lien",
-        "New this week"
-      ],
-      "score": 55
-    },
-    {
       "doc_num": "2026000147705",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-11-06",
@@ -1783,13 +1733,13 @@
       "score": 55
     },
     {
-      "doc_num": "2026000147296",
+      "doc_num": "2026000147493",
       "doc_type": "ABSTRACT OF JUDGMENT",
       "filed": "2026-11-06",
       "cat": "judgment",
       "cat_label": "Abstract of Judgment",
-      "owner": "GOWER JOSHUA D",
-      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "owner": "WEISS MICHAEL",
+      "grantee": "CONSTRUCTION NATION GROUP LLC",
       "amount": null,
       "legal": "N/A",
       "prop_address": "",
@@ -1800,7 +1750,7 @@
       "mail_city": "",
       "mail_state": "",
       "mail_zip": "",
-      "clerk_url": "https://collin.tx.publicsearch.us/doc/332276526",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332281729",
       "flags": [
         "Judgment lien",
         "New this week"
@@ -1876,6 +1826,56 @@
       "mail_state": "",
       "mail_zip": "",
       "clerk_url": "https://collin.tx.publicsearch.us/doc/332278594",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000147296",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-11-06",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "GOWER JOSHUA D",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332276526",
+      "flags": [
+        "Judgment lien",
+        "New this week"
+      ],
+      "score": 55
+    },
+    {
+      "doc_num": "2026000147863",
+      "doc_type": "ABSTRACT OF JUDGMENT",
+      "filed": "2026-11-09",
+      "cat": "judgment",
+      "cat_label": "Abstract of Judgment",
+      "owner": "KLEIN BOBBY",
+      "grantee": "MIDLAND CREDIT MANAGEMENT INC",
+      "amount": null,
+      "legal": "N/A",
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "",
+      "mail_zip": "",
+      "clerk_url": "https://collin.tx.publicsearch.us/doc/332288372",
       "flags": [
         "Judgment lien",
         "New this week"
