@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-11-14T14:07:17Z",
+  "fetched_at": "2026-11-15T14:43:32Z",
   "source": "Collin County Clerk Official Public Records + County Foreclosure Notices + CollinCAD parcel data",
-  "date_range": "2026-11-07 to 2026-11-14",
-  "total": 82,
-  "with_address": 50,
+  "date_range": "2026-11-08 to 2026-11-15",
+  "total": 81,
+  "with_address": 49,
   "records": [
     {
       "doc_num": "",
@@ -2034,30 +2034,6 @@
         "New this week"
       ],
       "score": 55
-    },
-    {
-      "doc_num": "",
-      "doc_type": "Notice of Foreclosure Sale",
-      "filed": "2026-11-06",
-      "cat": "foreclosure",
-      "cat_label": "Notice of Foreclosure Sale",
-      "owner": "",
-      "grantee": "",
-      "amount": null,
-      "legal": "Sale date: 12/01/2026",
-      "prop_address": "11/06/2026 - DECEMBER - UNINCORPORATED",
-      "prop_city": "UNINCORPORATED AREA",
-      "prop_state": "TX",
-      "prop_zip": "",
-      "mail_address": "",
-      "mail_city": "",
-      "mail_state": "",
-      "mail_zip": "",
-      "clerk_url": "https://apps2.collincountytx.gov/ForeclosureNotices",
-      "flags": [
-        "Pre-foreclosure"
-      ],
-      "score": 45
     }
   ]
 }
